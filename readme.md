@@ -22,5 +22,23 @@ This repo follows the same core structure as a “basic API with DRF” tutorial
 
 ## Project Structure (example)
 
-> Your structure may vary slightly depending on your project/app names.
+├── manage.py
+├── requirements.txt
+├── README.md
+├──     sampleDRF/
+│ ├── init.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── wsgi.py
+│ └── asgi.py
+└── app/
+├── init.py
+├── admin.py
+├── apps.py
+├── migrations/
+├── models.py
+├── serializers.py
+├── views.py
+├── urls.py
+└── tests.py
 
